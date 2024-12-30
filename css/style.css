@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* color */
+.color1{color:#505cfd !important;}
+.color2{color:#595959 !important;}
+.color3{background: #343434;}
+.color4{color:#3f3f3f !important;}
+.bg-white{background: #fff !important;}
+.bg-color5{background: #505cfd !important;}
+
+
+/* border-radius */
+.border-nn{border: none;}
+.br-radius1{border-radius: 10px 0px 0px 10px;}
+.br-radius2{border-radius: 0px 10px 10px 0px;}
+
+.font-sz{font-size: 12px !important;}
+.font-wth{font-weight: 600 !important;}
+
+
+
+.poppins-fonts{font-family: "Poppins", serif;}
+
+
+/* header area */
+
+.header-area{
+   position: relative;
+   margin-bottom: 150px;
+}
+.banner-area{
+    position: relative;
+    display: block;
+}
+
+.banner-area img {
+    width: 100%;
+    height: 765px;
+}
+
+.banner-area::before{
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 765px;
+    background:#fff;
+    opacity: 80%;
+}
+
+
+.nav-area{
+    position:absolute;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #d6d4d3;
+}
+
+
+.nav-btn{
+    border: 1px solid #505cfd;
+    background: none;
+}
+
+
+
+/* creative agency section */
+
+.banner-agency {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+}
+
+
+
+/* support banner */
+.banner-suport {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+}
+
+.banner-box {
+    background-color: #505cfd;
+    color: #ffffff;
+    border: 1px solid #6a74fc;
+    width: 355px;
+    height: 220px;
+}
+
+
+
+/* wordpress theme */
+
+
+.wordp-text{
+    margin: 0px auto;
+}
+
+.wordp-img {
+    width: 85%;
+}
+
+.theme-border{ 
+    position: relative;
+}
+
+.theme-border::before {
+    position: absolute;
+    content: "";
+    width: 49px;
+    background: #505cfd;
+    height: 2px;
+    left: 0px;
+    bottom: -11px;
+}
+
+
+
+/* subscribe area */
+
+
+.sub-area{
+    position: relative;
+    display: block;
+}
+
+.sub-area img {
+    width: 100%;
+    height: 300px;
+}
+
+.sub-area::before{
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 300px;
+    opacity: 80%;
+}
+
+
+
+/* subscribe area */
+.sub-text {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+}
+
+
+.sub-input input {
+    outline: none;
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+
+.sub-input button{
+    background: #505cfd;
+    color: #fff;
+}
+
+
+/* service card */
+.servc-area{
+    margin: 80px 0px 80px 0px;
+}
+
+.servc-card {
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    width: 295px;
+    height: 265px;
+    padding: 23px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.servc-card:hover{
+    background: #343434;
+}
+.servc-card:hover h3{
+    color: #fff !important;
+}
+.servc-card:hover button{
+    color: #fff !important;
+}
+
+
+
+
+/* our pricing */
+.pricing-area {
+    background: #e7e8fe;
+    width: 100%;
+    height: 700px;
+    padding-top: 70px;
+}
+
+.card{
+    background:  none !important;
+   
+    transition: .5s;
+    
+}
+
+.list-group-item{
+    background: none !important;
+    border: none !important;
+}
+
+.card:hover{
+    background: #fff !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.doller-icon {
+    position: absolute;
+    left: 102px;
+    top: 12px;
+    font-weight: 500;
+}
+
+.card button{
+   transition: .6s;
+}
+.card:hover button{
+    background: #505cfd !important;
+    color: #fff !important;
+}
+
+.review-area {
+    width: 100%;
+    height: 160px;
+    padding-top: 29px;
+}
+
+
+
+
+/*  skilld person  */
+
+.skill-p {
+    position: relative;
+    overflow: hidden;
+    width: 324px;
+    height: 300px;
+}
+
+
+.skill-p a{
+    position: relative;
+    display: block;
+ } 
+
+
+.skill-p a img {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+.skill-p-text {
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    content: "";
+    top: 50%;
+    left: 50%;
+    opacity: 85%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #ffffff;
+    padding-top: 60px;
+    transition: .9s;
+   
+}
+
+.skill-p-text-2{
+    opacity: 85%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.skill-p:hover .skill-p-text{
+    opacity: 85%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+/* blog & news */
+
+.blog-area{
+    margin-top: 100px;
+}
+
+.blog-date{
+    overflow: hidden;
+}
+
+
+
+.blog-date::after {
+    position: relative;
+    background-color: #595959;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 40px;
+    left: 0.6rem;
+    margin-top: -4px;
+}
+
+
+.blog-card {
+    width: 310px !important;
+}
+
+
+
+/* carousel */
+.carsol-area {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+}
+
+.carsol-img{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+/* carousel main */
+.carousel {
+    position: absolute !important;
+    content: "";
+    width: 80%;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+}
+
+
+/* carosel dot */
+
+.carousel .carousel-indicators button{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    opacity: 100 !important;
+    border: 1px solid #595959;
+}
+
+.carousel .carousel-indicators .active{
+    background-color:#595959 !important;
+}
+
+
+
