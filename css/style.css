@@ -20,6 +20,7 @@
 .br-radius2{border-radius: 0px 10px 10px 0px;}
 
 .font-sz{font-size: 12px !important;}
+.font2-sz{font-size: 1.5rem !important;}
 .font-wth{font-weight: 600 !important;}
 
 
@@ -93,9 +94,16 @@
     border: 1px solid #6a74fc;
     width: 355px;
     height: 220px;
+    padding-top: 45px;
 }
 
+.banner-box i {
+    font-size: 100%;
+}
 
+.banner-box h3 {
+    font-size: 25px;
+}
 
 /* wordpress theme */
 
@@ -105,8 +113,9 @@
 }
 
 .wordp-img {
-    width: 85%;
+    width: 100%;
 }
+
 
 .theme-border{ 
     position: relative;
@@ -156,6 +165,10 @@
     right: 0;
 }
 
+.sub-text p{
+
+}
+
 
 .sub-input input {
     outline: none;
@@ -169,9 +182,10 @@
 }
 
 
-.sub-input button{
+.sub-input button {
     background: #505cfd;
     color: #fff;
+    margin-left: 40px;
 }
 
 
@@ -183,7 +197,7 @@
 .servc-card {
     border-radius: 5px;
     border: 1px solid #ebebeb;
-    width: 295px;
+    width: 273px;
     height: 265px;
     padding: 23px;
     transition: .5s;
@@ -207,13 +221,12 @@
 .pricing-area {
     background: #e7e8fe;
     width: 100%;
-    height: 700px;
-    padding-top: 70px;
+    padding: 70px 0px 70px 0px;
 }
 
 .card{
     background:  none !important;
-   
+    margin: 0px 2rem;
     transition: .5s;
     
 }
@@ -245,8 +258,7 @@
 
 .review-area {
     width: 100%;
-    height: 160px;
-    padding-top: 29px;
+    padding: 30px 0px;
 }
 
 
@@ -257,7 +269,7 @@
 .skill-p {
     position: relative;
     overflow: hidden;
-    width: 324px;
+    width: 279px;
     height: 300px;
 }
 
@@ -281,14 +293,13 @@
     width: 235px;
     height: 235px;
     content: "";
-    top: 50%;
+    top: 47%;
     left: 50%;
     opacity: 85%;
     transform: translate(-50%, -50%) scale(0);
     background-color: #ffffff;
     padding-top: 60px;
     transition: .9s;
-   
 }
 
 .skill-p-text-2{
@@ -329,6 +340,7 @@
 
 .blog-card {
     width: 310px !important;
+    margin: 0px 1rem;
 }
 
 
